@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Mandagreen_EasyTrackers>
+			<version>0.1.0</version>
+		</Mandagreen_EasyTrackers>
+	</modules>
+	
+	<global>
+		<helpers>
+			<mgeasytrackers>
+				<class>Mandagreen_EasyTrackers_Helper</class>
+			</mgeasytrackers>
+		</helpers>
+	</global>
+	
+	<frontend>
+        <translate>
+            <modules>
+                <Mandagreen_EasyTrackers>
+                    <files>
+                        <default>Mandagreen_EasyTrackers.csv</default>
+                    </files>
+                </Mandagreen_EasyTrackers>
+            </modules>
+        </translate>
+	</frontend>
+</config>

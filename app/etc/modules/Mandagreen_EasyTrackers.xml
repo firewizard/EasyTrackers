@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mandagreen_EasyTrackers>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mandagreen_EasyTrackers>
+    </modules>
+</config>

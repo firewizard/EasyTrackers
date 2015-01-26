@@ -1,0 +1,3 @@
+app/code/community/Mandagreen/EasyTrackers/              app/code/community/Mandagreen/EasyTrackers/
+app/etc/modules/Mandagreen_EasyTrackers.xml              app/etc/modules/Mandagreen_EasyTrackers.xml
+app/locale/en_US/Mandagreen_EasyTrackers.csv             app/locale/en_US/Mandagreen_EasyTrackers.csv
