@@ -2,24 +2,23 @@
 <config>
     <sections>
         <mgeasytrackers translate="label">
-			<label>Easy Trackers (by mandagreen.com)</label>
+			<label>Easy Trackers</label>
 			<tab>general</tab>
 			<sort_order>500</sort_order>
 			<show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
-		
+
             <groups>
                 <sale translate="label comment" module="mgeasytrackers">
                     <label>Sale Page</label>
-                    <comment><![CDATA[<div style="max-width: 600px; background: #fff; padding: 5px; border: 1px solid #ddd; font-size: 12px; line-height: 14px;"></div>]]></comment>
+                    <sort_order>10</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
                         <trackers translate="label comment">
                             <label>Trackers</label>
-                            <comment><![CDATA[]]></comment>
                             <frontend_type>textarea</frontend_type>
                             <sort_order>10</sort_order>
                             <show_in_default>1</show_in_default>
@@ -28,6 +27,96 @@
                         </trackers>
                     </fields>
                 </sale>
+
+                <cart translate="label comment" module="mgeasytrackers">
+                    <label>Cart Page</label>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <trackers translate="label comment">
+                            <label>Trackers</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </trackers>
+                    </fields>
+                </cart>
+
+                <checkout translate="label comment" module="mgeasytrackers">
+                    <label>Checkout Page</label>
+                    <sort_order>30</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <trackers translate="label comment">
+                            <label>Trackers</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </trackers>
+                    </fields>
+                </checkout>
+
+                <product translate="label comment" module="mgeasytrackers">
+                    <label>Product Page</label>
+                    <sort_order>40</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <trackers translate="label comment">
+                            <label>Trackers</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </trackers>
+                    </fields>
+                </product>
+
+                <category translate="label comment" module="mgeasytrackers">
+                    <label>Category Page</label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <trackers translate="label comment">
+                            <label>Trackers</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </trackers>
+                    </fields>
+                </category>
+
+                <homepage translate="label comment" module="mgeasytrackers">
+                    <label>Home Page</label>
+                    <sort_order>60</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <trackers translate="label comment">
+                            <label>Trackers</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </trackers>
+                    </fields>
+                </homepage>
             </groups>
         </mgeasytrackers>
     </sections>

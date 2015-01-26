@@ -12,6 +12,12 @@
 				<class>Mandagreen_EasyTrackers_Helper</class>
 			</mgeasytrackers>
 		</helpers>
+
+		<models>
+			<mgeasytrackers>
+				<class>Mandagreen_EasyTrackers_Model</class>
+			</mgeasytrackers>
+		</models>
 	</global>
 	
 	<frontend>
@@ -24,5 +30,39 @@
                 </Mandagreen_EasyTrackers>
             </modules>
         </translate>
+
+        <events>
+            <controller_action_layout_render_before>
+                <observers>
+                    <mgeasytrackers>
+                        <class>mgeasytrackers/observer</class>
+                        <method>hookTrackers</method>
+                    </mgeasytrackers>
+                </observers>
+            </controller_action_layout_render_before>
+        </events>
 	</frontend>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <mgeasytrackers translate="title" module="mgeasytrackers">
+                                            <title>Easy Trackers</title>
+                                            <sort_order>500</sort_order>
+                                        </mgeasytrackers>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>
